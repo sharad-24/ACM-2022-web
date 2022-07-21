@@ -1,0 +1,881 @@
+.body{
+    background-color: #221F1F;
+    color: #F5F5F1;
+    overflow-x: hidden;
+}
+
+/* Nav section started */
+.toggerParent{
+  position: relative;
+ 
+}
+.toggler{
+  position: absolute;
+  top: 50px;  
+  left: 100; 
+  right: 0;
+  margin: 10px;
+}
+.offcanvas-body{
+  text-align: right;
+  background-color: #0087BE;
+  width: 100%;
+  height: 110vh;
+  padding-top: 5%!important;
+  overflow: hidden;
+}
+.btn-close{
+  opacity: 1;
+}
+.a{
+  color: #F5F5F1!important;
+  text-decoration: none;
+}
+.offcanvas-header{
+  background-color: #0087BE;
+}
+.navbar navbar-light bg-light fixed-top{
+  color: #221F1F;
+}
+.navbar-nav justify-content-end flex-grow-1 pe-3{
+  padding-top: 0px!important;
+}
+.nav-link{
+  font-family:Olivetta,sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 22px!important;
+  padding: 0.7em 0.5em 0.7em 1.4em;
+  text-transform: uppercase;
+}
+.hori222019 .a{
+  font-family:Olivetta,sans-serif;
+  font-weight: bold;
+  line-height: 1;
+  font-size: 20px;
+  padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+.cross{
+  margin-right: 20px!important;
+  padding-bottom: 35px!important;
+}
+.inMobileView{
+  display: block;
+}
+.forDesktopViewFooter{
+  display: block;
+}
+.forMobileViewFooter{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .forBringthechangeMobile{
+    margin-bottom: 5%;
+  }
+  .rightcard {
+    background-color: black;
+    height: auto!important;
+  }
+  .forDesktopViewFooter{
+    display: none;
+  }
+  .forMobileViewFooter{
+    display: block;
+    margin-bottom: 8%!important;
+  }
+  .forMobileViewFooter2{
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: initial!important;
+  
+  }
+  .toggler{
+    position: relative!important;
+    top: 60px!important;  
+    left: 100!important;
+    right: 0!important;
+    margin: 0%!important;
+  }
+
+  .offcanvas-body{
+    text-align: right;
+    background-color: #0087BE;
+    width: 100%;
+    height: 110vh;
+    overflow: hidden;
+    padding-top: 10%!important;
+  }
+  .forceCalled{
+    position: relative;
+    display: block!important;
+    font-size: 32px;
+    font-weight: bold;
+    align-items: flex-start;
+  }
+  .col1{
+    margin-right: 0px!important;
+    
+   }
+   .col2{
+    margin-bottom: 0px!important;
+    margin-left: 0px!important;
+   
+    
+   }
+   .col4{
+    margin-top: 0px!important;
+    margin-left: 0px!important;
+    
+   }
+   .col3{
+   margin-right:  0px!important;
+   margin-top: 0px!important;
+   }
+   .paddingRW{
+    padding-bottom: 5%!important;
+   }
+   .card-text-achievement{
+    font-size: 13px!important;
+    font-weight: bold;
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    background-color: initial;
+    color:#F5F5F1;
+}
+.inMobileView{
+  display: none!important;
+}
+.imageContainer{
+  width: 100%;
+  margin-top: 0%!important;
+}
+.bgImageHomePage{
+  width: 100%!important;
+  height: 110vh!important;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/acm-acmw-app-6aa17.appspot.com/o/ACM%20Website%20GIFs%2FMobile_AdobeCreativeCloudExpress.gif?alt=media&token=89d30bae-8be8-4d65-b479-80bcdf9e2993')!important;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg-img2{
+  width: 100%!important;
+  height: 90vh!important;
+  background-image: url('../assets/image/backimage.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none!important;
+}
+.card-body{
+  background-image: linear-gradient(to bottom right,#221F1F,grey);
+  background-image: linear-gradient(to top,#221F1F,grey);
+  height: auto!important;
+  position: static!important;
+}
+.btcButtonContainer{
+   position: static!important;
+}
+ .bgImageContainer-2{
+  background-image: url('../assets/events/sahayak2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none!important;
+ }
+ .bgImageContainer-4{
+  background-image: url('../assets/events/sahayak3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: none!important;
+ }
+}
+
+/* Nav section ended */
+
+/* Register-Now to Our vision section started */
+.bgImageHomePage{
+  width: 100%!important;
+  height: 110vh!important;
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/tech-event-nov-21.appspot.com/o/UPES-ACM-MAIN.gif?alt=media&token=fc14b129-5912-4ffd-b8ab-80f43ec826ca');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bg-img2{
+  width: 100%!important;
+  height: 90vh!important;
+  background-image: url('../assets/image/backimage.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+}
+.square_btn{
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black!important;
+  background-image: -webkit-linear-gradient(45deg, white 0%, white 100%);
+  background-image: linear-gradient(45deg, white 0%, silver 100%);
+  transition: .4s;
+}
+
+.square_btn:hover {
+  background-image: -webkit-linear-gradient(45deg, black 0%, black 100%);
+  background-image: linear-gradient(45deg, #4db8ff 0%, #004d80 100%);
+  color: white;
+}
+
+.square_btn2{
+  display: inline-block;
+  padding: 6px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: black!important;
+  background-color: white;
+  transition: .4s;
+}
+
+.square_btn2:hover {
+  background-image: -webkit-linear-gradient(45deg, black 0%, black 100%);
+  background-image: linear-gradient(45deg, #4db8ff 0%, #004d80 100%);
+  color: white;
+}
+.revolution {
+  text-align: center;  
+  font-family: sans-serif;
+  color: white;  
+  }
+
+  .blueContainer{
+    background-color: #162B45;
+  }
+  .vertical {
+    border-left: 2px solid white;
+    height: 300px;
+  }
+  .forceCalled{
+    position: relative;
+    display: flex;
+    font-size: 32px;
+    font-weight: bold;
+    align-items: flex-start;
+  }
+  .forceCalledContainer{
+    margin-left: -30%;
+  }
+  .UPESACM{
+    position: relative;
+    display: flex;
+    font-size: 80px;
+    font-weight: bold;
+    align-items: flex-start;
+  }
+  .box1{
+    float: left;
+  }
+  .imageContainer{
+    width: 100%;
+    margin-top: -30%;
+  }
+  /* .Empowering{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+  } */
+/* Register-Now to Our vision section ended */
+
+/* Our Recent Work section started */
+.bgForRecentWork{
+  padding-top: 2%;
+  background-color: #F5F5F1;
+}
+
+.col1{
+ margin-right: -9px;
+}
+.col2{
+ margin-bottom: 3px;
+ margin-left: -9px;
+ 
+}
+.col4{
+ margin-top: 3px;
+ margin-left: -9px;
+}
+.col3{
+margin-right:  -9px;
+margin-top: 3px;
+}
+.h2{
+  text-align: center;
+
+}
+.p{
+  text-align: center;
+}
+.imgRW{
+  width: 100%;
+  height: 50vh;
+}
+.imgRW:hover {
+  webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+  filter: blur(4px);
+}
+.button {
+ border-color: #0087be; 
+ border:solid 3px;
+ color: #0087be;
+ padding: 16px,32px;
+ font-size: 18px!important;
+ text-align: center;
+ margin: auto;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ display: flex;
+ position: relative;
+ padding-left: 30px;
+ padding-right: 30px;
+ padding-top: 2.5px;
+ padding-bottom: 2.5px;
+}
+.half_background {
+  background: linear-gradient(to top, #78dcfa 50%, transparent 50%);
+}
+.button:hover{
+opacity: .7;
+}
+.recentWorkHeading{
+  background: linear-gradient(to bottom, #F5F5F1 60%, #0087BE 40%);
+  font-weight: bolder;
+  font-size: 38px;
+  color: #221F1F;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.recentWorkPara{
+  font-weight: normal;
+  color: #221F1F;
+}
+
+/* After Effect CSS */
+.half_background {
+  background: linear-gradient(to top, #78dcfa 50%, transparent 50%);
+}
+p{
+  text-align: center;
+}
+.button {
+  border-color: #0087be; 
+  border:solid 3px;
+  color: #0087be;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
+ }
+ .button:hover{
+   opacity: .7;
+ }
+ .knowmore:hover{
+   opacity:.5;
+ }
+ 
+ .aEborder{
+  border:solid 3px white;
+  color: white;
+ }
+ .h3{
+   color: white;
+   text-align: center;
+ }
+ .knowmore{
+   border: solid 2px #00aadc;
+   background-color: black;
+   color: #F5F5F1;
+   border-radius: 25px;
+   text-align: center;
+   margin-bottom: 5px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-top: 2.5px;
+   padding-bottom: 2.5px;
+   position: relative;
+ }
+ .container-1{
+   height:auto;
+   border:2px solid black;
+   margin: 8px;
+   background-color: black;
+  
+ }
+ .container-2{
+  height: 80vh;
+  border:2px solid black;
+  margin:8px;
+  /* background-color: black; */
+ }
+ .containerProdigy-2{
+  height: 73vh;
+  border:2px solid black;
+  margin:8px;
+  /* background-color: black; */
+ }
+ .bgImageContainer-2{
+  background-image: url('../assets/events/sahayak2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgforHOCcontainer-2{
+  background-image: url('../assets/events/HOC3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgforDSPcontainer-2{
+  background-image: url('../assets/events/DSP.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgfor21container-2{
+  background-image: url('../assets/events/prodigy21-3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .container-3{
+  height: 50vh;
+  border:2px solid black;
+  margin:8px;
+}
+.containerDSP-3{
+  height: 56vh;
+  border:2px solid black;
+  margin:8px;
+}
+.containerHOC-3{
+  height: 54vh;
+  border:2px solid black;
+  margin:8px;
+}
+.bgImageContainer-3{
+  background-image: url('../assets/events/sahyak.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgforHOCcontainer-3{
+  background-image: url('../assets/events/HOC2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgforDSPcontainer-3{
+  background-image: url('../assets/events/DSP3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgfor21container-3{
+  background-image: url('../assets/events/prodigy21-1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+.container-4
+{
+  height: 70vh;
+  border:2px solid black;
+  margin: 8px!important;
+}
+.bgImageContainer-4{
+  background-image: url('../assets/events/sahayak3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgforDSPcontainer-4{
+  background-image: url('../assets/events/DSPSoftware.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgforHOCcontainer-4{
+  background-image: url('../assets/events/HOC.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+ .bgfor21container-4{
+  background-image: url('../assets/events/prodigy21-2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+/* Our Recent Work section ended */
+
+/* Bring the change to year of EST section started */
+.bgColorBlue{
+  background-color: #162B45!important;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.btcColor
+{
+    color:#F5F5F1;
+    background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%) ;
+}
+.BtcCircle{
+    width: 60px;
+    height: 60px;
+    background-color: #78DCFA;
+    border-radius: 50%;
+    /* margin: 20px; */
+    padding: 10px;
+}
+
+.achievementHeading{
+  background: linear-gradient(to bottom, transparent 60%, #0087BE 40%);
+  font-weight: bolder;
+  font-size: 40px;
+  color: #F5F5F1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.card-text-achievement{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 5px;
+    text-align: center;
+    background-color: initial;
+    color:#F5F5F1;
+}
+.card-body{
+    background-image: linear-gradient(to bottom right,#221F1F,grey);
+    background-image: linear-gradient(to top,#221F1F,grey);
+    height: 70vh;
+    position: relative;
+}
+.card-title{
+    background-color: initial;
+    font-size: 28px;
+    font-weight: bold;
+    color: #F5F5F1;
+    text-align: center;
+}
+.btcButtonContainer{
+     position: absolute;
+     right:    0;
+     bottom:   0;
+     left: 0;
+     padding-bottom: 2%;
+}
+.btcButton
+{
+    border-color: #78DCFA !important;
+    color: #F5F5F1;
+    background-color: #221F1F;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.outer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btcImg{
+    padding: 10px;
+    position: relative;
+}
+.text .btcP{
+    font-family: Proxima Nova;
+    position: absolute;
+    color: #F5F5F1;
+    top: 50px;
+    left: 15px;
+    background-color: initial ;
+    font-size: 32px!important;
+    text-align: center;
+}
+.card{
+        border: 4px grey solid !important;
+}
+.bringChangeHeading{
+  background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+  font-weight: bolder;
+  font-size: 38px;
+  color: #F5F5F1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5vw;
+}
+
+.card-text {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3vw;
+
+}
+
+.card {
+  border: none;
+  background-color: initial;
+}
+
+.YearOfEstb {
+  background-color: #162B45;
+  padding: 70px;
+}
+
+.CupBg {
+  background-image: url('../assets/image/CupBg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.oc {
+  border: 13px black solid;
+}
+
+.rightcard {
+  background-color: black;
+  height: 90vh;
+}
+
+.lic {
+  height: 16.7rem;
+  background-color: white;
+}
+.lic1dayofcode{
+  background-image: url('../assets/events/21dayofcode1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic2dayofcode{
+  background-image: url('../assets/events/21dayofcode2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic3dayofcode{
+  background-image: url('../assets/events/21dayofcode.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic4dayofcode{
+  background-image: url('../assets/events/21dayofcode3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lic1codeanytime{
+  background-image: url('../assets/events/codeanytime1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic2codeanytime{
+  background-image: url('../assets/events/codeanytime2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic3codeanytime{
+  background-image: url('../assets/events/codeanytime3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic4codeanytime{
+  background-image: url('../assets/events/codeanytime4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lic1codeops{
+  background-image: url('../assets/events/codeops1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic2codeops{
+  background-image: url('../assets/events/codeops4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic3codeops{
+  background-image: url('../assets/events/codeops2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic4codeops{
+  background-image: url('../assets/events/codeops3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lic1spyc{
+  background-image: url('../assets/events/spyc1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic2spyc{
+  background-image: url('../assets/events/spyc2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic3spyc{
+  background-image: url('../assets/events/spy3.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lic4spyc{
+  background-image: url('../assets/events/spy4.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* Bring the change to year of EST section ended */
+
+/* Hear from our alumni section started */
+.Cardbr{
+    border-radius: 10%;
+    border-style: solid;
+    border-color: white;
+    background-color: linear-gradient(to top,#221F1F,grey);
+    width: 100%;
+    height: auto;
+    padding: 8%;
+}
+.imgCard{
+    display: flex;
+    justify-content: center;
+}
+.swiper-slide {
+    width: 500px;
+    background-color: transparent!important;
+    height: auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+  
+  @media (max-width: 768px) {
+    .swiper-slide {
+      width: 250px;
+      height: auto;
+    }
+  }  
+  .swiper-slide .aluiImage {
+    display: block;
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    margin-top: 0%;
+    margin-bottom: 3%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  .aluiName{
+    font-weight: bold;
+
+  }
+  .aluiPosition{
+    font-weight: normal;
+    margin-bottom: 5%;
+  }
+  .aluiDiscription{
+      font-weight: lighter;
+  }
+  .aluiHeading{
+      background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+      font-weight: bolder;
+      font-size: 38px;
+  }
+  .aluiPara{
+      font-weight: normal;
+  }
+
+/* Hear from our alumni section ended */
+
+/* Footer section started */
+.ul{
+  list-style: none;
+  /* color: white; */
+}
+.xyz{
+  font-size:16px!important;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+/* .xyz :hover{
+  color:white;
+  padding-left: 8px;
+  text-decoration: none;
+} */
+.address :hover{
+  /* color:brown; */
+  padding-left: 8px;
+
+}
+
+.handw{
+  color: aliceblue;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.linefooter{
+  padding-left:5px;
+}
+.copyr{
+  padding-bottom: 10px;
+}
+.line{
+  width: 10px;
+  height: 10px;
+  color: white;
+}
+
+.maps{
+  width: 100%;
+  height: auto;
+  margin-bottom: -5%;
+}
+/* Footer section ended */

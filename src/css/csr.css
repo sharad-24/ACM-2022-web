@@ -1,0 +1,50 @@
+.bringChangeHeading2{
+    background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+    font-weight: bolder;
+    font-size: 38px;
+    color: #F5F5F1!important;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .text .btcP{
+    font-family: Proxima Nova;
+    position: absolute;
+    color: #F5F5F1;
+    top: 50px;
+    left: 15px;
+    background-color: initial ;
+    font-size: 38px;
+    text-align: center;
+}
+
+.imageContainer{
+    width: 100%;
+    margin-top: -30%;
+  }
+
+  .csrGif{
+    width: 100%!important;
+    height: 110vh!important;
+    background-image: url('../assets/gif/CSR\ GIF.gif');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .whiteLine{
+    display: block;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .csrGif{
+      width: 100%!important;
+      height: 110vh!important;
+      background-image: url('../assets/gif/CSR-Mobile.gif');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .whiteLine{
+      display: none;
+    }
+  }

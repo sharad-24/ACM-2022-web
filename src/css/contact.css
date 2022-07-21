@@ -1,0 +1,52 @@
+.header{
+    color: #55B0E1;
+    font-size: 50px;
+    font-weight: bold;
+}
+.bg-img{
+    background-image:url(https://firebasestorage.googleapis.com/v0/b/acm-acmw-app-6aa17.appspot.com/o/prodigy2022.jpg?alt=media&token=d0167155-8467-482b-a002-07c5f4d69f77);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color:#464646;
+    color: white;
+    opacity: 0.7;
+}
+.f{
+    padding: 10px;     
+}
+.fields{
+    background-color: #4B4B4B;
+    color: #F5F5F1;
+    padding: 7px;
+    opacity: 0.7;
+    width: 50%;
+}
+ ::placeholder {
+   color: white;
+   opacity: 1;
+} 
+.send{
+    margin-top: 20px;
+ color: #FFFFFF;
+ background-color:initial ;
+ border: 2px #55B0E1 solid ;
+ border-radius: 10px;
+ padding: 2px 20px 2px 20px;
+ text-align: center;
+}
+.pos{
+    margin-top: 30%;
+}
+.size{
+    font-size: small;
+
+}
+.img{
+    float: left;
+}
+.gap{
+    padding: 10px;
+}
+

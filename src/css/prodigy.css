@@ -1,0 +1,281 @@
+body {
+    background-color: #221F1F;
+    color: white;
+  }
+
+  .card {
+    background-color: #221F1F;
+  }
+  .hoverBlur:hover{
+    webkit-filter: blur(4px); /* Chrome, Safari, Opera */
+    filter: blur(4px);
+  }
+
+  .ThemeForThisYear {
+    margin: 5.3vw;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+    width: 320px;
+  }
+
+  .international {
+    width: 60vw;
+    height: 3vh;
+    font-size: 1.2em;
+  }
+
+  .iframe {
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid white;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .international {
+      width: auto;
+      height: auto;
+      font-size: 1.2em;
+    }
+
+    .iframe {
+      height: auto;
+      width: auto;
+      border: 1px solid white;
+
+    }
+
+  }
+
+    /* GDHBFEGIGUEGFJD */
+
+    /* .overtext{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    opacity: 0.2rem;
+    padding: 30px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    font-weight: bolder;
+  } */
+
+    .whoSpokeThisYear {
+      margin: 30vw;
+    }
+
+    /* hvygdig */
+
+    .headingEvent {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+
+    .theme {
+      margin: 5.3vw;
+      font-size: 1.5em;
+      background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+      width: 240px;
+    }
+
+    @media only screen and (max-width: 600px) {
+      .event_gallery {
+        /* width: auto;
+    height: auto; */
+        display: block;
+        /* font-size: 1.2em; */
+      }
+      .marginPara{
+        margin-bottom: 10%;
+      }
+      .gifBackgroud2022{
+        width: 100%!important;
+        height: 110vh!important;
+        background-image: url('https://firebasestorage.googleapis.com/v0/b/arambhik-school-65864.appspot.com/o/Main_1.gif?alt=media&token=1ef58d45-20d3-4167-9074-5abcc9866981')!important;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+    }
+
+    .headingEvent{
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+  
+  .theme {
+    margin: 5.3vw;
+    margin-bottom: 1vw;
+    font-size: 1.5em;
+    color: white!important;
+    background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+    width: 220px;
+  }
+  
+  .theme2 {
+      margin: 5.3vw;
+      margin-bottom: 1vw;
+      font-size: 1.5em;
+      color: black;
+      background: linear-gradient(to bottom, #ffffff 60%, #0087BE 40%);
+      width: 220px;
+    }
+  
+    .sponsor_image{
+        margin-top: 5vw;
+    }
+
+    .templateEG{
+      border-style: solid;
+      border-color: white;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+  }
+  .template_contentbox{
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 40px;
+  }
+  
+  
+  /* img{
+      width: 500px;
+      height: 500px;
+  } */
+  
+  .content_template{
+      margin-top: 3%;
+  }
+  
+  .Event_name{
+      color: #00AADC;
+  }
+  
+  .event_detail{
+      color: white;
+  }
+  .event_date{
+      color: #00AADC;
+  }
+  .box{
+      /* display: flex; */
+      justify-content: center;
+      margin-right: 10px;
+      margin-left: 10px;
+      margin-top: 50px;
+      margin-bottom: 40px;
+      /* display: flex;
+      justify-content: center; */
+  }
+  
+  .box_row{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .colbox{
+      height: 260px;
+      background-color: white;
+      margin-top: 15px;
+      box-sizing: content-box;
+      
+  }
+  
+  @media only screen and (max-width: 1024px) {
+      .template_contentbox{
+          display: block;
+      }
+  }
+
+  .containerpro {
+    position: relative;
+  }
+  .bottomText {
+    position: absolute;
+    padding: 8%;
+    bottom: 0%;
+    right: 0%;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  
+  .imagepro {
+    display: block;
+    width: 100%;
+    height: 60vh!important;
+    margin-top: 5%;
+  }
+  
+  .overlaypro {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  
+  .containerpro:hover .overlaypro {
+    opacity: 1;
+  }
+  
+  .textpro {
+    color: white;
+    font-size: 10px!important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .gifBackgroud{
+    width: 100%!important;
+    height: 110vh!important;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tech-event-nov-21.appspot.com/o/website_AdobeCreativeCloudExpress%20(1).gif?alt=media&token=8146df78-466b-4b34-8236-eae7e231b5a5')!important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .gifBackgroud2022{
+    width: 100%!important;
+    height: 110vh!important;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/arambhik-school-65864.appspot.com/o/New1%20(1).gif?alt=media&token=b340b0dd-8468-4802-88cb-0e7b07905e49');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .buttonRegistration {
+    background-color: transparent;
+    border-color: #0087be; 
+    border-radius: 5%;
+    border:solid 3px;
+    color: #0087be;
+    padding: 16px,32px;
+    font-size: 26px!important;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
+   }
+
+   .marginPara{
+     margin-bottom: 18%;
+   }

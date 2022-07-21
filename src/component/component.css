@@ -1,0 +1,41 @@
+.pagination{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+    margin-top: 5%; 
+}
+.paginationButton{
+    background-color: transparent;
+    border: none;
+    color: #0087BE;
+    font-size: 1.8em;
+    
+
+}
+.underline{
+    background-color: transparent;
+    border: none;
+    color: #0087BE;
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+
+.prodigyYears{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 600px) {
+    .prodigyYears{
+        display: block;
+    }
+    .paginationButton{
+        background-color: transparent;
+        border: none;
+        color: #0087BE;
+        font-size: 10px;
+        
+    
+    }
+
+}

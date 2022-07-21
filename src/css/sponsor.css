@@ -1,0 +1,77 @@
+body {
+    background-color: #221F1F;
+    color: white;
+  }
+
+
+/* main */
+
+
+.sponsors_static_section{
+  margin-top: 25%;
+}
+
+
+
+  .sponsor_static_BringingTheChanges {
+    margin: 5.3vw;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+    width: 330px;
+  }
+
+  .col {
+    margin-bottom: 1.5em;
+  }
+
+  .card {
+    width: 200px;
+    height: 191px;
+    background: url("../assets/image/Component\ 2340.png") no-repeat;
+    border: none;
+    background-position: center;
+
+  }
+
+  .card:hover {
+    background: url("../assets/image/Component\ 2341.png") no-repeat;
+    background-position: center;
+  }
+
+
+  .SponsorshipBrochure {
+    margin: 5.3vw;
+    font-size: 1.5em;
+    background: linear-gradient(to bottom, #221F1F 60%, #0087BE 40%);
+    width: 370px;
+  }
+
+  .international{
+    width: 60vw;
+    height: 3vh;
+    font-size: 1.2em;
+  }
+
+  .iframe{
+    height: 50vh;
+    width: 50vw;
+    border: 1px solid white;
+    
+  }
+  @media only screen and (max-width: 600px) {
+    .international{
+    width: auto;
+    height: auto;
+    font-size: 1.2em;
+  }
+  .iframe{
+    height: auto;
+    width: auto;
+    border: 1px solid white;
+    
+  }
+  .sponsors_static_section{
+  margin-top: 65%;
+  }
+
+}
