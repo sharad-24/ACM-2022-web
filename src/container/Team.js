@@ -11,39 +11,26 @@ import '../css/team.css';
 import Topbar from '../component/navbar';
 import Footer from '../component/footer';
 
-
-import abhay from '../assets/Teams/abhay kapatia.jpeg';
 import aditya from '../assets/Teams/aditya pilani.jpeg';
-import arjun from '../assets/Teams/arjun ahluwalia.jpeg';
 import ayush from '../assets/Teams/ayush kumar.jpeg';
-import divyanshi from '../assets/Teams/divyanshi sharma.jpg';
-import garvit from '../assets/Teams/garvit.jpeg';
-import nikhil from '../assets/Teams/nikhil pancholi.jpeg';
-import paritosh from '../assets/Teams/paritosh.jpg';
-import pranay from '../assets/Teams/pranay bhandari.jpg';
 import rishika from '../assets/Teams/rishika.jpeg';
-import sharad from '../assets/Teams/sharad.jpeg';
 import tejas from '../assets/Teams/tejas.jpeg';
-import vanya from '../assets/Teams/vanya.jpeg';
-import raunak from '../assets/Teams/raunak.jpg';
-import brihad from '../assets/Teams/brihad.jpg';
-import nishita from '../assets/Teams/nishita sinha.jpg';
-import sidhanth from '../assets/Teams/siddhant.jpg';
-import karmesh from '../assets/Teams/kamresh.jpg';
-import kirtan from '../assets/Teams/kirtan.jpg';
 import sangini from '../assets/Teams/sagini.jpg';
-import jeevika from '../assets/Teams/jivika.jpg';
-import akshit from '../assets/Teams/akshit.jpg';
-import riya from '../assets/Teams/riya.jpeg';
-import kanishq from '../assets/Teams/kanishq.jpg';
-import shiva from '../assets/Teams/shiva.jpg';
-import ananya from '../assets/Teams/ananya.jpg';
-import Paridhi from '../assets/Teams/pridhi.jpg';
-import bhumika from '../assets/Teams/bhumika.jpg';
-import anusha from '../assets/Teams/anusha.jpg';
-import dikshant from '../assets/Teams/dikshant.jpeg';
 import riddhi from "../assets/Teams/riddhi.jpeg";
 import lavanaya from "../assets/Teams/lavanya.jpg";
+import sarthak from "../assets/Teams/Sarthak.jpg";
+import Bharat from "../assets/Teams/Bharat.jpg";
+import shradha from "../assets/Teams/Shradha.jpg";
+import siddhant from "../assets/Teams/siddhant.jpg";
+import aashisha from "../assets/Teams/Aashisha.jpg";
+import esha from "../assets/Teams/Esha.jpg";
+import reetika from "../assets/Teams/Reetika.jpg";
+import anmol from "../assets/Teams/Anmol.jpeg";
+import chetany from "../assets/Teams/Chetany.jpg";
+import sahil from "../assets/Teams/Sahil.jpg";
+import riddhiJain from "../assets/Teams/Riddhi.JPG";
+import pankaj from "../assets/Teams/Pankaj.jpeg";
+
 
 
 function Team() {
@@ -99,103 +86,6 @@ function Team() {
                     <div className="area3" />
                 </div>
             </div>
-
-
-            {/* <div className="section2">
-                <div className="container-fluid">
-                    <h className="aluiHeading2">Hear from our alumni</h> <br />
-                    <h className="aluiPara">“Any institutions' alumni are key to its growth.” <br />Know here about what our seniors have to say about their voyage as proud members of the
-                        ACM family.
-                    </h>
-                    <div className="row">
-                        <div className="col-md-12">
-                            <Swiper
-                                navigation={false}
-                                effect={"coverflow"}
-                                centeredSlides={true}
-                                slidesPerView={window.innerWidth < 768 ? 1 : "auto"}
-                                loop={true}
-                                coverflowEffect={{
-                                    rotate: 70,
-                                    stretch: 0,
-                                    depth: 100,
-                                    modifier: 1,
-                                    clickable: true,
-                                    slideShadows: true
-                                }}
-                                pagination={false}
-                                className="mySwiper"
-                            >
-                                <SwiperSlide>
-                                    <div className="Cardbr">
-                                        <div className="imgCard">
-                                            <img className="aluiImage" src={img1} alt="alui-1" />
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiName">Vedant Daruka</h>
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiPosition">Former Chairperson-UPES ACM</h>
-                                        </div>
-                                        <h className="aluiDiscription">UPES ACM is the first international Student Chapter in the Computer
-                                            Science Department  to be introduced in the University. ACM also
-                                            started a very successful initiative for women in  computing, i.e. ACM-W</h>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="Cardbr">
-                                        <div className="imgCard">
-                                            <img className="aluiImage" src={img1} alt="alui-1" />
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiName">Vedant Daruka</h>
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiPosition">Former Chairperson-UPES ACM</h>
-                                        </div>
-                                        <h className="aluiDiscription">UPES ACM is the first international Student Chapter in the Computer
-                                            Science Department  to be introduced in the University. ACM also
-                                            started a very successful initiative for women in  computing, i.e. ACM-W</h>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="Cardbr">
-                                        <div className="imgCard">
-                                            <img className="aluiImage" src={img1} alt="alui-1" />
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiName">Vedant Daruka</h>
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiPosition">Former Chairperson-UPES ACM</h>
-                                        </div>
-                                        <h className="aluiDiscription">UPES ACM is the first international Student Chapter in the Computer
-                                            Science Department  to be introduced in the University. ACM also
-                                            started a very successful initiative for women in  computing, i.e. ACM-W</h>
-                                    </div>
-                                </SwiperSlide>
-                                <SwiperSlide>
-                                    <div className="Cardbr">
-                                        <div className="imgCard">
-                                            <img className="aluiImage" src={img1} alt="alui-1" />
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiName">Vedant Daruka</h>
-                                        </div>
-                                        <div className="imgCard">
-                                            <h className="aluiPosition">Former Chairperson-UPES ACM</h>
-                                        </div>
-                                        <h className="aluiDiscription">UPES ACM is the first international Student Chapter in the Computer
-                                            Science Department  to be introduced in the University. ACM also
-                                            started a very successful initiative for women in  computing, i.e. ACM-W</h>
-                                    </div>
-                                </SwiperSlide>
-                            </Swiper>
-                        </div>
-                    </div>
-                </div>
-            </div> */}
-
 
             <div className="section3">
                 <div className="text">
@@ -308,7 +198,7 @@ function Team() {
 
                 <div className="container">
                     <div className="row">
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
+                        {/* <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
                                 <img style={{ width: '100%' }} src={sharad} alt="Avatar" className="imagepro" />
                                 <div class="bottomText">Sharad Singhania</div>
@@ -316,7 +206,7 @@ function Team() {
                                     <div className="textpro2">Board of Executives</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
@@ -338,7 +228,7 @@ function Team() {
                             </div>
                         </div>
 
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
+                        {/* <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
                                 <img style={{ width: '100%', height: '60vh' }} src={raunak} alt="Avatar" className="imagepro" />
                                 <div class="bottomText">Raunak Gupta</div>
@@ -346,8 +236,8 @@ function Team() {
                                     <div className="textpro2">Board of Executives</div>
                                 </div>
                             </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
+                        </div> */}
+                        {/* <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
                                 <img style={{ width: '100%', height: '60vh' }} src={karmesh} alt="Avatar" className="imagepro" />
                                 <div class="bottomText">Karmesh Duggar</div>
@@ -355,7 +245,7 @@ function Team() {
                                     <div className="textpro2">Board of Executives</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
                                 <img style={{ width: '100%', height: '60vh' }} src={lavanaya} alt="Avatar" className="imagepro" />
@@ -402,8 +292,8 @@ function Team() {
                     <div className="row">
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={sharad} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Sharad Singhania</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={sarthak} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Sarthak Rathore</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Chairperson</div>
                                 </div>
@@ -412,8 +302,8 @@ function Team() {
 
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={brihad} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Brihad Gunapu</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={aditya} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Aditya Pilani</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Vice-Chairperson</div>
                                 </div>
@@ -421,8 +311,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={nishita} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Nishita Sinha</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={rishika} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Rishika Bhalla</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Treasurer</div>
                                 </div>
@@ -430,14 +320,14 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={aditya} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Aditya Pilani</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={Bharat} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Bharat Anand</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Secretary</div>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
+                        {/* <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
                                 <img style={{ width: '100%', height: '60vh' }} src={sidhanth} alt="Avatar" className="imagepro" />
                                 <div class="bottomText">Sidhanth Bansal</div>
@@ -445,7 +335,7 @@ function Team() {
                                     <div className="textpro2">Joint Secretary</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
@@ -463,15 +353,15 @@ function Team() {
 
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={karmesh} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Karmesh Duggar</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={pankaj} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Pankaj Kalra</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Technical Head</div>
                                 </div>
                             </div>
                         </div>
 
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
+                        {/* <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
                                 <img style={{ width: '100%', height: '60vh' }} src={kirtan} alt="Avatar" className="imagepro" />
                                 <div class="bottomText">Kirtan Dua</div>
@@ -479,7 +369,7 @@ function Team() {
                                     <div className="textpro2">Joint Technical Head</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
                                 <img style={{ width: '100%', height: '60vh' }} src={sharad} alt="Avatar" className="imagepro" />
@@ -500,8 +390,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={jeevika} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Jeevika Tuli</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={shradha} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Shradha Mudgil </div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Joint PR and Sponsorship Head</div>
                                 </div>
@@ -509,8 +399,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={akshit} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Akshit Gandotra</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={siddhant} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Siddhant Kwatra </div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Event Head</div>
                                 </div>
@@ -518,8 +408,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src="https://firebasestorage.googleapis.com/v0/b/acm-acmw-app-6aa17.appspot.com/o/riya.jpeg?alt=media&token=4796966f-15ea-4b5f-a497-6fa9b77b6c72" alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Riya Saxena</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={aashisha} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Aashisha Negi </div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Joint Event Head</div>
                                 </div>
@@ -527,8 +417,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={kanishq} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Kanishq Kalra</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={esha} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Esha Jadoun </div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Editorial Head</div>
                                 </div>
@@ -536,8 +426,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={shiva} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Muchukota Shiva</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={reetika} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Reetika Joshi</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Joint Editorial Head</div>
                                 </div>
@@ -545,26 +435,18 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={ananya} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Ananya Mathur</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={anmol} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Anmol Singhal</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Design Head</div>
                                 </div>
                             </div>
                         </div>
+                        
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={Paridhi} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Paridhi Goyal</div>
-                                <div className="overlaypro">
-                                    <div className="textpro2">Joint Design Head</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
-                            <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={bhumika} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Bhumika Chauhan</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={chetany} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Chetany Bhardwaj</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">VFX Head</div>
                                 </div>
@@ -572,8 +454,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src="https://firebasestorage.googleapis.com/v0/b/acm-acmw-app-6aa17.appspot.com/o/anusha.jpg?alt=media&token=9788b58a-6ff6-452c-8dc2-08ad64854f7c" alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Anusha Tripathi</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={riddhiJain} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Riddhi Jain</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Joint VFX Head</div>
                                 </div>
@@ -581,8 +463,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={dikshant} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Dikshant Gaur</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={sahil} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Sahil Bathla</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">CSR Head</div>
                                 </div>
