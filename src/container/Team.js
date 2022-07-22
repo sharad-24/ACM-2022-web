@@ -42,6 +42,8 @@ import Paridhi from '../assets/Teams/pridhi.jpg';
 import bhumika from '../assets/Teams/bhumika.jpg';
 import anusha from '../assets/Teams/anusha.jpg';
 import dikshant from '../assets/Teams/dikshant.jpeg';
+import riddhi from "../assets/Teams/riddhi.jpeg";
+import lavanaya from "../assets/Teams/lavanya.jpg";
 
 
 function Team() {
@@ -308,8 +310,8 @@ function Team() {
                     <div className="row">
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%' }} src={arjun} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Arjun Singh Ahluwalia</div>
+                                <img style={{ width: '100%' }} src={sharad} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Sharad Singhania</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Board of Executives</div>
                                 </div>
@@ -347,8 +349,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={garvit} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Garvit Khurana</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={karmesh} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Karmesh Duggar</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Board of Executives</div>
                                 </div>
@@ -356,8 +358,8 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={paritosh} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Paritosh Pancholi</div>
+                                <img style={{ width: '100%', height: '60vh' }} src={lavanaya} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Lavanya Tulsian</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Board of Executives</div>
                                 </div>
@@ -365,60 +367,13 @@ function Team() {
                         </div>
                         <div data-aos="flip-up" className="col-md-3 col-xs-12">
                             <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={divyanshi} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Divyanshi Sharma </div>
+                                <img style={{ width: '100%', height: '60vh' }} src={riddhi} alt="Avatar" className="imagepro" />
+                                <div class="bottomText">Riddhi Singh</div>
                                 <div className="overlaypro">
                                     <div className="textpro2">Board of Executives</div>
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
-                            <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={nikhil} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Nikhil Pancholi</div>
-                                <div className="overlaypro">
-                                    <div className="textpro2">Board of Executives</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
-                            <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={vanya} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Vanya Verma </div>
-                                <div className="overlaypro">
-                                    <div className="textpro2">Board of Executives</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
-                            <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={abhay} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Abhay Kapatia </div>
-                                <div className="overlaypro">
-                                    <div className="textpro2">Board of Executives</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
-                            <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={pranay} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Pranay Bhandari </div>
-                                <div className="overlaypro">
-                                    <div className="textpro2">Board of Executives</div>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="flip-up" className="col-md-3 col-xs-12">
-                            <div className="containerpro">
-                                <img style={{ width: '100%', height: '60vh' }} src={rishika} alt="Avatar" className="imagepro" />
-                                <div class="bottomText">Rishika Bhalla </div>
-                                <div className="overlaypro">
-                                    <div className="textpro2">Board of Executives</div>
-                                </div>
-                            </div>
-                        </div>
-                        
-
                         <div data-aos="slide-left" className="col-md-6 col-xs-12">
                             <div className="" style={{ color: 'black', paddingTop: '5%' }}>
                                 <p>
